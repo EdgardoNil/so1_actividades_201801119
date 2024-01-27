@@ -40,7 +40,6 @@ El modo usuario es el nivel de privilegio en el que operan las aplicaciones y pr
 - **Acceso limitado:** Las aplicaciones tienen acceso limitado a instrucciones y recursos privilegiados.
 - **Seguridad:** Mayor seguridad, ya que las aplicaciones no pueden alterar directamente el funcionamiento del sistema.
 
-*Fuente: [GeeksforGeeks - User Mode and Kernel Mode](https://www.geeksforgeeks.org/user-mode-and-kernel-mode-in-operating-system/)*
 
 ### Modo Kernel
 
@@ -49,7 +48,7 @@ En contraste, el modo kernel es el nivel de privilegio en el que el sistema oper
 - **Acceso completo:** El sistema operativo puede ejecutar instrucciones privilegiadas y acceder a todos los recursos del sistema.
 - **Operaciones críticas:** Capacidad para realizar operaciones críticas y cambiar la configuración del hardware.
 
-*Fuente: [Computer Hope - Kernel](https://www.computerhope.com/jargon/k/kernel.htm)*
+*Fuente: [GeeksforGeeks - User Mode and Kernel Mode](https://learn.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/user-mode-and-kernel-mode)*
 
 ## Interruptions vs Traps
 
@@ -60,7 +59,6 @@ Las interrupciones son eventos que rompen la secuencia normal de ejecución del 
 - **Origen:** Pueden ser generadas por hardware (como interrupciones de temporizador) o por software.
 - **Manejo:** Requieren un mecanismo eficiente de manejo para responder a eventos externos.
 
-*Fuente: [Studytonight - Interrupts in OS](https://www.studytonight.com/operating-system/interrupts-in-os)*
 
 ### Traps
 
@@ -69,4 +67,4 @@ Las trampas son eventos generados intencionalmente por el software en tiempo de 
 - **Generación intencional:** Se generan deliberadamente dentro del programa para manejar excepciones y errores.
 - **Uso:** Comúnmente utilizadas para realizar llamadas al sistema y gestionar interrupciones específicas.
 
-*Fuente: [TutorialsPoint - Traps and System Calls](https://www.tutorialspoint.com/operating_system/os_system_calls.htm)*
+*Fuente: [Tutorialspoint - Difference Between Trap and Interrupt in Operating System](https://www.tutorialspoint.com/difference-between-trap-and-interrupt-in-operating-system)*
