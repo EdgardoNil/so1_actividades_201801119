@@ -1,0 +1,8 @@
+[Unit]
+Description= 201801119 Actividad 3 
+
+[Service]
+User=emerson
+ExecStart=/home/edgardonils/Documentos/so1_actividades_201801119/actividad3/script.sh
+[Install]
+WantedBy=multi-user.target
