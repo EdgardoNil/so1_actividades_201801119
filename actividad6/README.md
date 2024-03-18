@@ -29,20 +29,18 @@ int main() {
         perror("Error al crear el proceso hijo");
         exit(EXIT_FAILURE);
     } else if (child_pid == 0) {
-        # Código ejecutado por el proceso hijo
         printf("Proceso hijo creado. PID: %d\n", getpid());
         # El proceso hijo finaliza inmediatamente después de la creación
         exit(EXIT_SUCCESS);
     } else {
-        # Código ejecutado por el proceso padre
         printf("Proceso padre creado. PID: %d\n", getpid());
         # Esperar un tiempo para que el proceso hijo se convierta en un zombie
         sleep(10);
-        # Imprimir información sobre el proceso hijo
+        
         printf("Proceso hijo ya es un zombie. Esperando para limpiarlo...\n");
         # Esperar a que el proceso hijo termine
         wait(NULL);
-        # Imprimir mensaje después de limpiar el proceso hijo
+       
         printf("Proceso hijo limpiado. Saliendo del proceso padre.\n");
     }
 
